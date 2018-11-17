@@ -14,5 +14,5 @@ class Anagram
     word.chars.sort == @anagram.chars.sort
   end
 end
-listen = Anagram.new("allergy")
-listen.match(%w(enlists google inlets inlest banana))
+allergy = Anagram.new("allergy")
+allergy.match(%w(gallery ballerina regally clergy largely leading))
