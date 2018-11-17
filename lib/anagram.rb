@@ -6,7 +6,7 @@ class Anagram
     @anagram = anagram
   end
 
-  def match(words)
+  def match(word)
     words.select do |word|
       possible_anagram(word)
     end
