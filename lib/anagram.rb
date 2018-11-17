@@ -6,11 +6,11 @@ class Anagram
 
   def match(words)
     words.select do |word|
-      is_anagram?(word)
+      isanagram?(word)
     end
   end
 
-  def is_anagram?(word)
+  def isanagram?(word)
     word.chars.sort == @anagram.chars.sort
   end
 end
